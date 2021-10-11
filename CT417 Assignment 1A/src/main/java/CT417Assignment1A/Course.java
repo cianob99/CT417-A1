@@ -61,4 +61,20 @@ public class Course {
 	public void setEndDate(DateTime end) {
             this.EndDate = end;
 	}
+        
+        @Override
+        public String toString() {
+            String courseString = "\nCourse Name:\t" + this.CourseName + "\nCourse Start Date:\t" + this.StartDate + "\nCourse End Date:\t" + this.EndDate;
+
+        if (this.Modules.size() > 0)
+        {
+            courseString += "\nModules:";
+            for (Module module : this.Modules)
+            {
+                courseString += module.toString();
+            }
+        }
+
+        return courseString;
+    }
 }
