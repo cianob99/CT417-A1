@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+apply plugin: 'maven'
+
+group = 'com.github.cianob99'
+
+mainClassName = 'CT417Assignment1B.Main'
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    //implementation 'com.github.cianob99:CT417-A1:8e13c2fa89'
+    implementation 'com.github.cianob99:CT417-A1:-SNAPSHOT'
+    compile 'joda-time:joda-time:2.10.12'
+}
