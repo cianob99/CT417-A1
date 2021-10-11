@@ -67,8 +67,5 @@ public class Main {
         
         System.out.println(CSIT);
         System.out.println(ECE);
-        
-
-    }
-    
+    }   
 }
