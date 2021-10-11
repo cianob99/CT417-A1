@@ -55,7 +55,7 @@ public class Student {
         
     @Override
     public String toString() {
-        String studentString = "\n\n\t\tName:\t" + this.Name + "\n\t\tDOB:\t" + this.DOB
+        String studentString = "\n\t\tName:\t" + this.Name + "\n\t\tDOB:\t" + this.DOB
                 + "\n\t\tAge:\t" + this.Age + "\n\t\tID:\t" + this.ID + "\n";
         
         return studentString;
