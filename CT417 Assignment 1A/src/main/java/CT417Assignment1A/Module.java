@@ -46,7 +46,7 @@ public class Module {
 
         if (this.Students.size() > 0)
         {
-            moduleString += "\nStudents:";
+            moduleString += "\n\tStudents:";
             for (Student student : this.Students)
             {
                 moduleString += student.toString();
