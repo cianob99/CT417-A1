@@ -53,5 +53,11 @@ public class Student {
             return getName() + getAge();
 	}
         
-    
+    @Override
+    public String toString() {
+        String studentString = "\n\t\tName:\t" + this.Name + "\n\t\tDOB:\t" + this.DOB
+                + "\n\t\tAge:\t" + this.Age + "\n\t\tStudent ID:\t" + this.ID;
+        
+        return studentString;
+    }
 }
