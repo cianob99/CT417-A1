@@ -43,4 +43,20 @@ public class Module {
 	public void setStudents(ArrayList<Student> students) {
             this.Students = students;
 	}
+        
+        @Override
+        public String toString() {
+            String moduleString = "\nModule Name:\t" + this.ModuleName + "\nModule ID:\t" + this.ModuleID;
+
+        if (this.Students.size() > 0)
+        {
+            moduleString += "\nModules:";
+            for (Student student : this.Students)
+            {
+                moduleString += student.toString();
+            }
+        }
+
+        return moduleString;
+        }
 }
