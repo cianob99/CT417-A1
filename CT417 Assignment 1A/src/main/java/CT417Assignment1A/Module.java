@@ -42,11 +42,11 @@ public class Module {
         
         @Override
         public String toString() {
-            String moduleString = "\nModule Name:\t" + this.ModuleName + "\nModule ID:\t" + this.ModuleID;
+            String moduleString = "\n\tName:\t" + this.ModuleName + "\n\tCode:\t" + this.ModuleID;
 
         if (this.Students.size() > 0)
         {
-            moduleString += "\nModules:";
+            moduleString += "\nStudents:";
             for (Student student : this.Students)
             {
                 moduleString += student.toString();

@@ -60,7 +60,7 @@ public class Course {
         
         @Override
         public String toString() {
-            String courseString = "\nCourse Name:\t" + this.CourseName + "\nCourse Start Date:\t" + this.StartDate + "\nCourse End Date:\t" + this.EndDate;
+            String courseString = "\nCourse:\t" + this.CourseName + "\nStart Date:\t" + this.StartDate + "\nEnd Date:\t" + this.EndDate;
 
         if (this.Modules.size() > 0)
         {
