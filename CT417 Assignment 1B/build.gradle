@@ -15,7 +15,7 @@ allprojects {
 }
 
 dependencies {
-    //implementation 'com.github.cianob99:CT417-A1:8e13c2fa89'
-    implementation 'com.github.cianob99:CT417-A1:-SNAPSHOT'
+    implementation 'com.github.cianob99:CT417-A1:1ff11fb21416a73284fcf02331b104cdf56a183e'
+    //implementation 'com.github.cianob99:CT417-A1:-SNAPSHOT'
     compile 'joda-time:joda-time:2.10.12'
 }
