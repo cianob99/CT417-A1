@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'application'
+apply plugin: 'war'
 
 group = 'com.github.cianob99'
 
@@ -20,7 +21,6 @@ dependencies {
     
     // Testing build
     implementation 'com.github.cianob99:CT417-A1:3e3960f8162f45bf81384e58f36833114f874866'
-
     
     implementation 'joda-time:joda-time:2.10.12'
 }
