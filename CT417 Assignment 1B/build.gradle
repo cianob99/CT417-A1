@@ -23,5 +23,5 @@ dependencies {
     implementation 'com.github.cianob99:CT417-A1:3e3960f8162f45bf81384e58f36833114f874866'
 
     
-    compile 'joda-time:joda-time:2.10.12'
+    implementation 'joda-time:joda-time:2.10.12'
 }
